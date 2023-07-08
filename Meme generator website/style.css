@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling  */
+body {
+    background-color: rgb(236, 234, 234);
+}
+
+/* hte section code */
+.Hero-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+
+/* the meme generator website heading styling */
+h1 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* code for the div container for memes */
+.meme-container {
+    width: 50pc;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 2px 2px 30px rgb(42, 175, 82);
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.meme-container:hover {
+    box-shadow: 2px 2px 30px rgb(46, 91, 216);
+
+}
+
+
+/* this is the meme text styling */
+.memeText {
+    padding: 50px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* meme button styling */
+.meme-btn {
+    font-size: 20px;
+    width: 100px;
+    height: 45px;
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 2px;
+    background-color: rgb(66, 192, 66);
+    border-radius: 5px ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.meme-btn:hover {
+    background-color: rgb(41, 41, 233);
+}
+
+/* my github link */
+.github-link {
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    top: 80%;
+    font-size: 20px;
+}
+
+.github-link a {
+    text-decoration: none;
+    color: green;
+}
+
+.github-link a:hover {
+    color: rgb(41, 41, 233);
+}
+
+
+/* Code for responsive mobile phones  */
+
+@media (max-width: 768px)   {
+    .meme-container {
+    width: 25pc;
+    height: 300px;
+        }
+        
+    .meme-btn {
+        font-size: 15px;
+        width: 90px;
+        height: 40px;
+        padding: 10px;
+    
+      
+        }
+        h1 {
+        font-size: 30px;
+        position: relative;
+        text-align: center;
+        margin-top: 50px;
+          }
+};
